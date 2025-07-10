@@ -124,3 +124,40 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.card-almacen{
+  align-self: center;
+  width: 1000px;
+  height: 500px; 
+  margin-left: 0px;
+}
+
+.img-almacen {
+  align-self: center;
+  width: 1000px;
+  height: 500px; 
+  margin-left: 90px;
+}
+
+.logo-call{
+  width: 450px;
+  height:250px;
+  margin-left: 100px;
+}
+
+.logo-call{
+  width: auto;
+  height: auto;
+}
+
+.contacto{
+  width: 450px;
+  height:250px;
+  margin-left: 1200px;
+  margin-top: -500px;
+}
+
+.text{
+  color: blue;
+  font-size: 25px;
+}
