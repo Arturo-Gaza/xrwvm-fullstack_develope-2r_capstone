@@ -32,5 +32,9 @@ urlpatterns = [
     path('logout', views.logout_request, name='logout'),
     path('register/', TemplateView.as_view(template_name="index.html")),
     path('get_cars/', views.get_cars, name='getcars'),
+    path(route='dealer/<int:dealer_id>', view=views.get_dealer_details, name='dealer_details'),
+    path(route='reviews/dealer/<int:dealer_id>', view=views.get_dealer_reviews, name='dealer_details'),
+    path('dealers/', TemplateView.as_view(template_name="index.html")),
+    path('dealer/<int:dealer_id>',TemplateView.as_view(template_name="index.html")),
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
